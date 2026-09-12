@@ -1,0 +1,47 @@
+# Changelog
+
+Toutes les versions notables de DarkMBTI.
+
+## [6.0.0] — 2026-09-12
+
+### Ajouté
+- Journal libre (`--journal`) : saisie multi-lignes après le quiz
+- Fichier dédié `~/.darkmbti_journal.json`
+- Intégration de la note de journal dans le rapport `.txt`
+- Affichage du journal dans `--history`
+- Option `--version`
+- Pause automatique en fin d'exécution sous Windows (évite la fermeture brutale)
+- Gestion globale des exceptions avec traceback visible
+- Option `--no-pause` pour les usages scriptés
+
+### Modifié
+- Le rapport `.txt` est écrit à côté du script (plus prévisible)
+- Nom de fichier du rapport daté + sécurisé (filtre alphanumérique)
+
+### Corrigé
+- La fenêtre cmd ne se ferme plus avant lecture du résultat
+- Les erreurs inattendues ne ferment plus la fenêtre
+
+## [5.0.0] — 2026-09-12
+
+### Ajouté
+- Diagnostic exportable en `.txt` (`--report`)
+- Nom de fichier daté et sécurisé
+- Encodage UTF-8 explicite
+
+## [4.0.0] — 2026-09-12
+
+### Ajouté
+- Retour humain par pôle : comment tu fonctionnes, ce qui aide, ce qui pèse, un conseil
+- Prénom et note d'intention optionnels
+
+## [3.0.0] — 2026-09-12
+
+### Ajouté
+- Version minimaliste, sobre, sans jugement
+- Historique local optionnel
+
+## [1.0.0] — 2026-09-12
+
+### Ajouté
+- Première version : quiz 20 questions, 16 profils, scoring simple
